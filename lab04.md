@@ -39,6 +39,6 @@ title: 十六进制颜色码
 
 ##同样范围，0 到255 和，十六进制数在这个范围通常被写以一个固定的两位数格式，代表它并且代表在十六进制，在某些情况下前缀(象#)。被写和# ff 的充分的强度红色，# 00,# 00。这可能被收缩象# ff0000。
 
-![十六进制颜色码](p1)
+![](https://github.com/mountaintouhouman/homework/blob/gh-pages/p2.png?raw=true)
 
-![十六进制颜色码](p2)
+![](https://github.com/mountaintouhouman/homework/blob/gh-pages/p1.jpg?raw=true)
