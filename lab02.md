@@ -20,3 +20,11 @@ construct2 是一个神奇的游戏制作器，它可以制作网页游戏，然
 制作游戏并不困难，重要的是有耐心和懂英语，还有要敢于百度，谷歌！自己做的游戏虽然简单，但别有风韵。
 
 点击此处亦可开始赛艇（划去）[开始游戏](new\index)
+
+游戏截图
+
+![](https://github.com/mountaintouhouman/homework/blob/gh-pages/h21.png?raw=true)
+
+![](https://github.com/mountaintouhouman/homework/blob/gh-pages/h22.png?raw=true)
+
+![](https://github.com/mountaintouhouman/homework/blob/gh-pages/h23.png?raw=true)
