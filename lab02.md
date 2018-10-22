@@ -28,3 +28,5 @@ construct2 是一个神奇的游戏制作器，它可以制作网页游戏，然
 ![](https://github.com/mountaintouhouman/homework/blob/gh-pages/h22.png?raw=true)
 
 ![](https://github.com/mountaintouhouman/homework/blob/gh-pages/h23.png?raw=true)
+
+![](https://github.com/mountaintouhouman/homework/blob/gh-pages/hw24.gif?raw=true)
