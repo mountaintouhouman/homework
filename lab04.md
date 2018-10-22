@@ -5,7 +5,7 @@ title: 十六进制颜色码
 
 # 十六进制颜色码（部分资料来自百度百科）
 
- 十六进制颜色码就是在软件中设定颜色值的代码。在很多软件中，都会遇到设定颜色值的问题，发展来源 人的眼睛看到的颜色有两种: 一种是发光体发出的颜色，比如计算机显示器屏幕显示的颜色; 另一种是物体本身不发光，而是反射的光产生 十六进制颜色。
+十六进制颜色码就是在软件中设定颜色值的代码。在很多软件中，都会遇到设定颜色值的问题，发展来源 人的眼睛看到的颜色有两种: 一种是发光体发出的颜色，比如计算机显示器屏幕显示的颜色; 另一种是物体本身不 发光，而是反射的光产生 十六进制颜色。
 
 人的眼睛看到的颜色有两种:
 
@@ -42,3 +42,37 @@ title: 十六进制颜色码
 ![](https://github.com/mountaintouhouman/homework/blob/gh-pages/p2.png?raw=true)
 
 ![](https://github.com/mountaintouhouman/homework/blob/gh-pages/p1.jpg?raw=true)
+
+一些颜色的RGB颜色码
+
+洋红Carmine（大胆） CMYK: C0 M100 Y60 K10
+
+RGB: R215 G0 B64
+
+宝石红Ruby（富贵） CMYK: C20 M100 Y50 K0
+
+RGB: R200 G8 B82
+
+玫瑰红Rose-red（典雅） CMYK: C0 M95 Y35 K0
+
+RGB: R230 G28 B100
+
+山茶红Camellia（微笑） CMYK: C0 M75 Y35 K10
+
+RGB: R220 G91 B111
+
+玫瑰粉Rose-pink（女人味） CMYK: C0 M60 Y20 K0
+
+RGB：R238 G134 B154
+
+浓粉Spinel-red（娇媚） CMYK: C0 M55 Y30 K0
+
+RGB: R240 G145 B146
+
+紫红色Opera-mauve（优美） CMYK: C10 M50 Y0 K0
+
+RGB: R225 G152 B192
+
+珊瑚粉Coral-pink（温顺） CMYK：C0 M50 Y25 K0
+
+RGB: R241 G156 B159
