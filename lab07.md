@@ -71,7 +71,7 @@ y=w+7;
 
 （1） 输入程序Program 2，运行并回答问题：
 
-[](https://github.com/mountaintouhouman/homework/blob/gh-pages/l72.png?raw=true)
+![](https://github.com/mountaintouhouman/homework/blob/gh-pages/l72.png?raw=true)
 
 用一句话总结程序的功能
 
@@ -128,7 +128,7 @@ STO Y
 
 HLT
 
-[](https://github.com/mountaintouhouman/homework/blob/gh-pages/l71.png?raw=true)
+![](https://github.com/mountaintouhouman/homework/blob/gh-pages/l71.png?raw=true)
 
 用自己的语言，简单总结高级语言与机器语言的区别与联系。
 
