@@ -20,7 +20,7 @@ http://old.sebug.net/paper/books/scipydoc/index.html
 
 https://docs.python.org/3.4/tutorial/
 
-选择2个高等数学上的作业，如泰勒分解、公式化简、解方程等。 
+使用的数学公式： 
 
 1.不定积分，
 
