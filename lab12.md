@@ -5,6 +5,11 @@ title: python
 
 # python
 
+
+python最好了（网上的人都是这么说的）
+
+如同邪教一般广受好评。
+
 推荐学习网站。
 
 https://github.com/sympy/sympy/wiki/Quick-examples
