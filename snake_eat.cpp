@@ -2,11 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 
+//time作为随机的生成食物的根据 
+
 char BLANK_CHAR      = ' ';
 char WALL_CHAR       = '*';
 char SNAKE_HEAD_CHAR = 'H';
 char SNAKE_BODY_CHAR = 'X';
 char FOOD_CHAR       = '$';
+
+//标记各种符号代表的内容 
 
 char map[12][13] = {
   "************",
@@ -23,15 +27,20 @@ char map[12][13] = {
   "************",
 };
 
+//地图 
+
 int snakeHeadX = 1, snakeHeadY = 1;
 int snakeBodyX[100] = {0}, snakeBodyY[100] = {0};
 int snakeBodyLen = 0;
 int snakeTailIndex = -1;
 int willBeLonger = 0;
-
 int foodX = 0, foodY = 0;
 
+//初始设定 
+
 int gameRunning = 1;
+
+//你还没死 
 
 void printMap() {
   system("cls");
@@ -39,6 +48,8 @@ void printMap() {
     printf("%s\n", map[i]);
   }
 }
+
+//输出地图 
 
 void spawnFood() {
   // Random food position
@@ -50,6 +61,8 @@ void spawnFood() {
   }
   map[foodX][foodY] = FOOD_CHAR;
 }
+
+//随机生成食物 
 
 void initGame() {
   // Initialize snake
@@ -67,10 +80,14 @@ void initGame() {
   printMap();
 }
 
+//游戏进行时进行的操作 
+
 void gameOver() {
   printf("GAME OVER!!\n");
   gameRunning = 0;
 }
+
+//你挂了时的操作 
 
 void snakeMove(char control) {
   map[snakeHeadX][snakeHeadY] = BLANK_CHAR;
@@ -94,13 +111,13 @@ void snakeMove(char control) {
     return;
   }
   if (map[snakeHeadX][snakeHeadY] != BLANK_CHAR && map[snakeHeadX][snakeHeadY] != FOOD_CHAR) {
-    // DIED
+    // 头和墙或身体重合时die 
     gameOver();
   }
   map[snakeHeadX][snakeHeadY] = SNAKE_HEAD_CHAR;
 
   int moved = 0;
-  // If willBeLonger, then make it longer
+  // If willBeLonger, then make it longer吃到食物时伸长 
   if (willBeLonger) {
     willBeLonger = 0;
     moved = 1;
@@ -116,13 +133,13 @@ void snakeMove(char control) {
     snakeBodyLen++;
   }
 
-  // Check if ate food
+  // Check if ate food是否吃到食物，即头和食物重合 
   if (snakeHeadX == foodX && snakeHeadY == foodY) {
     willBeLonger = 1;
     spawnFood();
   }
 
-  // Head has already moved, **Move the body**
+  // Head has already moved, **Move the body**移动身体 
   // if "no body" here or added tail just now, then it needn't move
   if (snakeBodyLen <= 0 || moved) return;
   map[snakeBodyX[snakeTailIndex]][snakeBodyY[snakeTailIndex]] = BLANK_CHAR;
@@ -134,14 +151,14 @@ void snakeMove(char control) {
 }
 
 int main() {
-  // Initialize random seed
+  // Initialize random seed随机生成食物的种子 
   srand(time(NULL));
 
   initGame();
 
   char control = 0;
   while (gameRunning) {
-    scanf(" %c", &control); // " %c": the space is used to skip blank character, like '\n'
+    scanf(" %c", &control); // " %c": the space is used to skip blank character, like '\n'输入来操控 
     snakeMove(control);
     printMap();
   }
